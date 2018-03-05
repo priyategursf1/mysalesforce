@@ -10,7 +10,7 @@ global with sharing class AddLead {
         insert l;
         
         system.debug('the length of my name:' + datetime.now().time());   
-        return true;
+        system.debug('the length of my name:' + datetime.now().time());   
         
         /*
                  {
