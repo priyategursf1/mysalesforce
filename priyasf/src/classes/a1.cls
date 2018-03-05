@@ -7,6 +7,7 @@ public class a1 {
     
     public static void display()
     {
+    	
         system.debug('the length of my name:' + datetime.now().time());        
 }
 }
