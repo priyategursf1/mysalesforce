@@ -8,6 +8,8 @@ global with sharing class AddLead {
         l.company=company;
         l.Status='Working - Contacted';
         insert l;
+        
+        system.debug('the length of my name:' + datetime.now().time());   
         return true;
         
         /*
