@@ -6,6 +6,8 @@ global static list<string> getEmail(){
 	list<Customer__c> clist= [select name,cEmail__c from Customer__c where cEmail__C like '%gmail.com' ];
     for(Customer__c currentRecord:clist)
 	{
+		
+		
        string currentRecordEmailId= currentRecord.cemail__c;
         elist.add(currentRecordEmailId);
 	}
